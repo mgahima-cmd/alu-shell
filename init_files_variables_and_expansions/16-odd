@@ -1,2 +1,6 @@
 #!/bin/bash
-awk "NR % 2 == 1"
+while read -r l1
+do
+echo "$l1"
+read -r _
+done
